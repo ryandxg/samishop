@@ -1,0 +1,408 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    margin:0;
+    background-color: #eee;
+    height:700px;
+}
+
+.header{
+    width:100%;
+    height:80px;
+}
+
+.header .head{
+    width:480px;
+    height:80px;
+    margin-left:400px;
+   
+ 
+}
+.nav{
+    width:100%;
+    text-align:center;
+    background-color:#124;
+    padding:20px;
+   
+}
+.nav ul{
+    margin-top:0%;
+    margin-bottom:0%;
+}
+.nav ul a{
+    color:white;
+    margin:20px;
+    font-size:25px;
+    text-decoration: none;
+    font-family: cursive;
+}
+.nav ul a:hover{
+    background-color: brown;
+    color:white;
+}
+
+.slider{
+    width:100%;
+    height:500px;
+}
+.slider img{
+    width:100%;
+    height:450px;
+}
+#para{
+    width:100%;
+    text-align:center;
+    font-family: cursive;
+    margin:0;
+
+}
+#para{
+    animation-name: para;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count:infinite;
+    animation-play-state: running;
+}
+
+@keyframes para{
+0%{color:blue;}
+25%{colo:darkcyan;}
+30%{color:red;}
+35%{color:yellow;}
+40%{color:brown;}
+45%{color:black;}
+60%{color:green;}
+70%{color:maroon;}
+80%{color:rgb(41, 0, 128);}
+90%{color:rgb(128, 0, 21);}
+1000%{color:rgb(0, 128, 6);}
+
+
+
+
+
+    
+}
+#para h4{
+    font-size:30px;
+    margin:0;
+    
+}
+.about_us p{
+    font-size:25px;
+    font-family: cursive;
+    text-align:justify;
+}
+.img{
+    width:100%;
+    height:300px;
+    margin-bottom: 400px;
+    padding-left: 50px;
+}
+.img img{
+    width:30%;
+    height:300px;
+    margin:15px;
+ 
+}
+.footer{
+    width:100%;
+    height: 50px;
+    background-color: tomato;
+    margin: auto;
+    font-size: 40px;
+    text-align:center;
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+/*this is where styling for product starts*/
+.con{
+    width:1000px;
+    margin:auto;
+    height: 800px;
+    background-color:#fff;
+}
+
+.pro{
+    text-align: center;
+    background-color: orange;
+    width:500px;
+    margin:auto;
+    padding:10px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.ourimg{
+    width: 30%;
+    height: 280px;
+    display: inline-block;
+    background-color: darkgray;
+    margin: 10px 0px 0px 23px;
+}
+.ourimg img{
+   width: 100%;
+   height: 200px;
+}
+.ourimg h6{
+     text-align: center;
+     font-family: cursive;
+     margin: 0;
+}
+.ourimg button{
+  margin: 4px 110px;
+  border-radius: 7px;
+
+}
+.ourimg button:hover{
+   background-color: black;
+   color: white;
+}
+.ourback3{
+    background-color:tomato;
+     border-radius:20px;
+     padding:10px;
+     text-decoration: none;
+     color:black;
+     font-size:30px;
+     width: 130px;
+     margin-top: 20px;
+ }
+ .ourback3 a:hover{
+     background-color: greenyellow;
+     text-decoration: none;
+ }
+
+/*this is where styling for service starts*/
+.con2{
+    width:1000px;
+    margin:auto;
+    height: 800px;
+    background-color:#fff;
+}
+.service{
+    text-align: center;
+    background-color: indigo;
+    width:500px;
+    margin:auto;
+    padding:10px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.ourback2{
+    background-color:tomato;
+     border-radius:20px;
+     padding:10px;
+     text-decoration: none;
+     color:black;
+     font-size:30px;
+     width: 130px;
+ }
+ .ourback2 a:hover{
+     background-color: greenyellow;
+     text-decoration: none;
+ }
+ .bat{
+     height: 50px;
+     margin: 90px 250px;
+ }
+ .bat:hover{
+     background-color: black;
+     color: white;
+ }
+
+
+/*this is where styling for FAQs starts*/
+.con3{
+    width:1000px;
+    margin:auto;
+    height: 800px;
+    background-color:#fff;
+}
+.faq{
+    text-align: center;
+    background-color: black;
+    width:500px;
+    margin:auto;
+    padding:10px;
+    border-radius: 30px;
+    font-size: 30px;
+    float: left;
+    color: white;
+}
+.nav1{
+    width:100%;
+    text-align:center;
+    background-color: black;
+    padding:20px;
+   
+}
+.nav1 ul{
+    margin-top:0%;
+    margin-bottom:0%;
+}
+.nav1 ul a{
+    color:white;
+    margin:20px;
+    font-size:25px;
+    text-decoration: none;
+    font-family: cursive;
+}
+.nav1 ul a:hover{
+    background-color: greenyellow;
+    color:white;
+}
+input{
+    
+    border-radius: 10px;
+    padding: 7px;
+    font-family: Courier;
+    font-size: 20px;
+}
+.ourback4{
+    background-color:tomato;
+     border-radius:20px;
+     padding:10px;
+     text-decoration: none;
+     color:black;
+     font-size:30px;
+     width: 130px;
+     margin: 20px;
+    float: right;
+ }
+ .ourback4 a:hover{
+     background-color: greenyellow;
+     text-decoration: none;
+ }
+
+/*this is where styling for contact starts*/
+.con4{
+    width:1000px;
+    margin:auto;
+    height: 800px;
+    background-color:#fff;
+}
+.contact{
+    text-align: center;
+    background-color: gold;
+    width:500px;
+    margin:auto;
+    padding:10px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+body{
+    width: 100%;
+    margin: 0;
+}
+.instagram{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 25px;
+}
+.handle{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    background-color: gold;
+    border-radius: 30px;
+    width: 500px;
+    margin: 30px 250px;
+    padding-top: 20px;
+  
+}
+
+
+.twitter{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive; 
+    margin-bottom: 25px;
+}
+
+
+.facebook{
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 25px;
+    
+}
+.ourback1{
+   background-color:tomato;
+    border-radius:20px;
+    padding:10px;
+    text-decoration: none;
+    color:black;
+    font-size:30px;
+    width: 130px;
+}
+.ourback1 a:hover{
+    background-color: greenyellow;
+    text-decoration: none;
+}
+@media only screen and (min-width:600px) and (max-width:960px)
+{
+    
+body{
+    width:100%;
+    margin:0;
+    background-color: #eee;
+    height:700px;
+}
+.header{
+    width:100%;
+    height:80px;
+}
+.header .head{
+    width:480px;
+    height:80px;
+    margin-left:120px;
+}
+.nav{
+    width:100%;
+    text-align:center;
+    background-color:#124;
+    padding:10px;  
+}
+.nav ul{
+    margin-top:0%;
+    margin-bottom:0%;
+    margin-right: 25px;
+}
+.nav ul a{
+    color:white;
+    margin:20px;
+    font-size:20px;
+    text-decoration: none;
+    font-family: cursive;  
+}
+.slider{
+    width:100%;
+    height:500px;
+}
+#para h4{
+    font-size:20px;
+    margin:0;
+}
+.about_us p{
+    font-size:18px;
+    font-family: cursive;
+    text-align:justify;
+}
+.img{
+    width:100%;
+    height:480px;
+    margin-bottom: 400px;
+    padding-left: 100px;
+}
+.img img{
+    width:30%;
+    height:200px;
+    margin:35px;
+ 
+}
+}
