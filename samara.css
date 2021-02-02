@@ -375,6 +375,10 @@ body{
         font-size: 5px;
        
     }
+    .slider img{
+        width:100%;
+        height:450px;
+    }
 
     .nav ul a{
         color:white;
@@ -418,7 +422,7 @@ body{
         font-size: 17px;
         text-align:center;
         padding:24px;
-        font-family: courier;
+        font-family: cursive;
     }
 }
 @media only screen and (min-width:800px) and (max-width:960px)
@@ -444,6 +448,10 @@ body{
     text-align:center;
     background-color:#124;
     padding:10px;  
+}
+.slider img{
+    width:100%;
+    height:450px;
 }
 .nav ul{
     margin-top:0%;
